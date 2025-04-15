@@ -15,8 +15,9 @@ int main(){
     case 2:
       printf("%d",b-c);
       break;    
-    default:
+      default:
+      printf("Enter the two finking number ok");
         break;
     }
-    
+    // nested switch case a thing
 }
