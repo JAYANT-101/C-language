@@ -2,7 +2,7 @@
 int main(){
     printf("Enter a number\n");
     int a,i=0;
-    scanf("%d",a);
+    scanf("%d",&a);
     while (i<a)
     {
         printf("Chodu\n");
