@@ -7,9 +7,9 @@ int main(){
 //  printf("Hello world\n");
 
 //  goto label;
- for(int i=1; i<8;++i){
+ for(int i=1; i<8;i++){
     printf("Enter 0 to exsit\n");
-    for(int j=0;j<i;++j){
+    for(int j=0;j<i;j++){
         int a;
         scanf("%d\n",&a);
         if(a!=0){
