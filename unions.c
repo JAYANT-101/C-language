@@ -13,5 +13,6 @@ int main(){
      un.marks=99;
      strcpy(un.name,"jayant");
      printf("detai of jayant sinha with name id and marks %s\n%d\n%d\n",un.name,un.id,un.marks);
-return 0;
+// this cureption happens becouse union only allow the one mamber at a time ok
+     return 0;
 }
