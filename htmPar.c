@@ -1,14 +1,34 @@
-#include <stdio.h>
-#include <string.h>
-void removeChar(char *str, int index) {
-    int i, len = strlen(str);
-    for (i = index; i < len; i++) {
-        str[i] = str[i + 1];
+#include<stdio.h>
+#include<string.h>
+void parser(char *String){
+    int n=0;
+    for(int i=0;i<strlen(String);i++){
+        if(String[i]=='<'){
+            printf("this is the frist print \n");
+            continue;
+        }
+        else if (String[i]=='>')
+        {n=1;
+            printf("n is %d\n",n);
+            continue;
+        }
+        if (String[strlen(String)]==' ')
+        {
+            printf("this if (String[strlen(String)]==' ') is working\n ");
+            String[strlen(String)]=String[strlen(String)+1];
+        }
+        
+        if(n=1&&String[i]==' '||String[i+1]==' '){
+            printf("this n=1&&String[i]==' '||String[i+1]==' '\n");
+            String[i+1]==String[i+2];
+            String[i]==String[i+1];
+        }
+        
     }
+    printf("%s",String);
 }
-int main() {
-    char myString[] = "example";
-    removeChar(myString, 2);
-    printf("%s\n", myString); 
-    return 0;
+int main(){
+char string[]="<h1>                      jayant sinha   <h1>";
+parser(string);
+    return 0; 
 }

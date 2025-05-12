@@ -9,7 +9,7 @@ int main(){
 int b=1;
 for(int i=0;i<5;i++){
 int val=func1(b);
-printf("Calling the function %d and the value of the value is %d\n",i,val);
+printf("Calling the function %d times and the value of the value is %d\n",i,val);
 }
 return 0;
 }
