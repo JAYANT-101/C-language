@@ -47,6 +47,6 @@ int main(){
     {
         printf("The new number a index of %d is %d\n",i,ptr[i]);
     }
-
+    free(ptr);
     return 0;
 }
