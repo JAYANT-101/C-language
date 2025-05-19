@@ -16,10 +16,10 @@ int main(){
     {
         printf("at %d is %d\n",i,arr[i]);
     }
-    while(j<id){
+    while(j<4){
             printf("Enter id\n");
     scanf("%d",&id);
-    arr=(char*) malloc(id*sizeof(char));
+    arr=(char*) realloc(arr,id*sizeof(char));
     for(int i=0; i < id; i++)
     {
         printf("Enter  no %d\n",i);
