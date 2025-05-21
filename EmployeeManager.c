@@ -16,7 +16,7 @@ int main(){
     {
         printf("at %d is %d\n",i,arr[i]);
     }
-    while(j<4){
+    while(j<3){
             printf("Enter id\n");
     scanf("%d",&id);
     arr=(char*) realloc(arr,id*sizeof(char));
