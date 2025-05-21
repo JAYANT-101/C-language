@@ -25,7 +25,4 @@ int main(){
     else{
         printf("win\n");
     }
-    
-    
-    
 }
