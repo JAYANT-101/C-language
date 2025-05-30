@@ -9,5 +9,6 @@ int main(){
     // write
     ptr=fopen("my.txt","a");
     fprintf(ptr,"%s",string);
+    fclose(ptr);
     return 0;
 }
